@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/tailwindcss.css" />
+  </head>
+  <body>
+    {% include 'header.html' %}
+    {% include 'hero.html' %}
+    <div class="flex justify-center items-center bg-red-400">Content</div>
+    {% include 'footer.html' %}
+    {% if DEBUG %} {{ hot_reload.script(url_for('hot-reload')) | safe }} {%
+    endif %}
+  </body>
+</html>

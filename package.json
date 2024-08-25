@@ -1,0 +1,18 @@
+{
+  "name": "fastapi-tailwindcss-daisyui-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./tailwindcss/tailwindcss.css -o ./static/css/tailwindcss.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "daisyui": "^4.12.10"
+  }
+}
