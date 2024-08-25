@@ -1,0 +1,1 @@
+# fastapi-tailwindcss-daisyui-starter
